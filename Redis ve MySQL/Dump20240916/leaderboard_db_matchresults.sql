@@ -1,0 +1,53 @@
+-- MySQL dump 10.13  Distrib 8.0.38, for Win64 (x86_64)
+--
+-- Host: localhost    Database: leaderboard_db
+-- ------------------------------------------------------
+-- Server version	8.0.39
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `matchresults`
+--
+
+DROP TABLE IF EXISTS `matchresults`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `matchresults` (
+  `Id` char(36) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL,
+  `UserId` char(36) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL,
+  `Score` int NOT NULL,
+  `MatchDate` datetime(6) NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `matchresults`
+--
+
+LOCK TABLES `matchresults` WRITE;
+/*!40000 ALTER TABLE `matchresults` DISABLE KEYS */;
+INSERT INTO `matchresults` VALUES ('08dcd5e2-ef8a-4ab7-84c6-b0b95827a66e','08dcd5d0-963e-43d9-8ac3-140bf214eecb',98,'2024-09-16 00:03:03.778982'),('08dcd5e3-d91f-4a37-81c9-6632e8fa2787','08dcd5e3-83d6-48d0-813f-f45356688595',50,'2024-09-16 00:09:35.678689'),('08dcd5e4-169a-425d-8767-d39d55f9b36f','08dcd5e3-86d7-4e5c-884f-baf4ec78071b',3,'2024-09-16 00:11:18.822625'),('08dcd5e4-246b-44eb-8ea2-856d3ce9e647','08dcd5e3-86d7-4e5c-884f-baf4ec78071b',3,'2024-09-16 00:11:42.003780'),('08dcd5e4-fd9b-480d-8671-eb2f5a7f2c54','08dcd5e3-86d7-4e5c-884f-baf4ec78071b',98,'2024-09-16 00:17:46.385023'),('08dcd5e5-19d6-48b6-83b6-12cc075a646e','08dcd5e3-83d6-48d0-813f-f45356688595',98,'2024-09-16 00:18:33.747932');
+/*!40000 ALTER TABLE `matchresults` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2024-09-16  3:35:30

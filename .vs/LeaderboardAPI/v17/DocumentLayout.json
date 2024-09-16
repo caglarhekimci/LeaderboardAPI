@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cagla\\LeaderboardAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CD27FC-2F9E-408A-A9E6-E1827798C651}|LeaderboardAPI.csproj|c:\\users\\cagla\\leaderboardapi\\readme\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F1CD27FC-2F9E-408A-A9E6-E1827798C651}|LeaderboardAPI.csproj|solutionrelative:readme\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CD27FC-2F9E-408A-A9E6-E1827798C651}|LeaderboardAPI.csproj|c:\\users\\cagla\\leaderboardapi\\services\\leaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CD27FC-2F9E-408A-A9E6-E1827798C651}|LeaderboardAPI.csproj|solutionrelative:services\\leaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CD27FC-2F9E-408A-A9E6-E1827798C651}|LeaderboardAPI.csproj|c:\\users\\cagla\\leaderboardapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CD27FC-2F9E-408A-A9E6-E1827798C651}|LeaderboardAPI.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CD27FC-2F9E-408A-A9E6-E1827798C651}|LeaderboardAPI.csproj|c:\\users\\cagla\\leaderboardapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F1CD27FC-2F9E-408A-A9E6-E1827798C651}|LeaderboardAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CD27FC-2F9E-408A-A9E6-E1827798C651}|LeaderboardAPI.csproj|c:\\users\\cagla\\leaderboardapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CD27FC-2F9E-408A-A9E6-E1827798C651}|LeaderboardAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\cagla\\LeaderboardAPI\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\cagla\\LeaderboardAPI\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T22:20:40.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeaderboardService.cs",
+              "DocumentMoniker": "C:\\Users\\cagla\\LeaderboardAPI\\Services\\LeaderboardService.cs",
+              "RelativeDocumentMoniker": "Services\\LeaderboardService.cs",
+              "ToolTip": "C:\\Users\\cagla\\LeaderboardAPI\\Services\\LeaderboardService.cs",
+              "RelativeToolTip": "Services\\LeaderboardService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T21:15:14.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\cagla\\LeaderboardAPI\\ReadME\\ReadMe.txt",
+              "RelativeDocumentMoniker": "ReadME\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\cagla\\LeaderboardAPI\\ReadME\\ReadMe.txt",
+              "RelativeToolTip": "ReadME\\ReadMe.txt",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAHgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-15T21:10:18.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cagla\\LeaderboardAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\cagla\\LeaderboardAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-08T15:01:36.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cagla\\LeaderboardAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\cagla\\LeaderboardAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:02:02.289Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
